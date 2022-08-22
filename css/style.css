@@ -18,7 +18,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: .2s linear;
 }
 
@@ -76,7 +76,8 @@ section {
 }
 
 .btn:hover {
-    letter-spacing: .2rem;
+    /* letter-spacing: .2rem; */
+    color: #fff;
 }
 
 .header {
@@ -239,8 +240,44 @@ section {
 }
 
 .products .box-container .box {
-    text-align: center;
+   text-align: center;
+   border: var(--border);
+   padding: 2rem;
+}
+
+
+.products .box-container .box .image {
+    padding: 2.5rem 0;
+}
+
+.products .box-container .box .image img {
+    height: 25rem;
+}
+
+.products .box-container .box .content h3 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.products .box-container .content .stars {
+    padding: 1.5rem;
+    color: var(--verde-claro);
+    font-size: 1.7rem;
+}
+
+.suggestion .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.suggestion .box-container .box {
     border: var(--border);
-    padding: 2rem;
+}
+
+.suggestion .box-container .box .image {
+    height: 25rem;
+    overflow: hidden;
+    width: 100%;
 }
 
