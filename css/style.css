@@ -181,6 +181,10 @@ section {
     flex-wrap: wrap;
 }
 
+.about span {
+    color:var(--withe);
+}
+
 .about .row .img {
     width: 100%;
 }
@@ -192,7 +196,7 @@ section {
 
 .about .row .content h3 {
     font-size: 3rem;
-    color: #fff;
+    color: var(--main-color);
 }
 
 .about .row .content p {
@@ -203,6 +207,9 @@ section {
     line-height: 1.8;
 }
 
+.menu span {
+    color: var(--withe);
+}
 .menu .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -231,6 +238,10 @@ section {
 
 .menu .box-container  .box:hover > * {
     color:black
+}
+
+.products span {
+    color: var(--withe);
 }
 
 .products .box-container {
@@ -263,6 +274,10 @@ section {
     padding: 1.5rem;
     color: var(--verde-claro);
     font-size: 1.7rem;
+}
+
+.suggestion span {
+    color: var(--withe);
 }
 
 .suggestion .box-container {
