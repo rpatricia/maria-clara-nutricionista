@@ -33,14 +33,14 @@ html {
 
 html::-webkit-scrollbar {
     width: .8rem;
-
+    
 }
 
-html:: ::-webkit-scrollbar-track {
+html::-webkit-scrollbar-track {
     background: transparent;
 }
 
-html:: ::-webkit-scrollbar-thumb {
+html::-webkit-scrollbar-thumb {
     background: #fff;
     border-radius: 5rem;
 }
@@ -82,7 +82,7 @@ section {
 }
 
 .header {
-    background: var(--verde-claro);
+    background: var(--withe);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -97,14 +97,14 @@ section {
 
 .header .logo img {
     height: 6rem;
-    border-radius: 10%;
+    /* border-radius: 10%; */
 }
 
 .header .navbar a {
     display: inline-block;
     font-size: 1.8rem;
     padding: 1rem;
-    color: #fff;
+    color: var(--verde-claro);
     position: relative;
     margin-right: 1rem;
   }
@@ -134,7 +134,7 @@ section {
   }
 
 .header .icons div {
-    color: #fff;
+    color: var(--verde-claro);
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
@@ -152,7 +152,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../assets/banner2.png)no-repeat;
+    background: url(../assets/banner5.png)no-repeat;
     background-size: cover;
     background-position: center;
 }
