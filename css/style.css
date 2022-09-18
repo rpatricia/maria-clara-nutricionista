@@ -178,6 +178,7 @@ section {
 .about .row {
     display: flex;
     align-items: center;
+    justify-content: center;
     background: var(--verde-claro);
     flex-wrap: wrap;
 }
@@ -187,6 +188,7 @@ section {
 }
 
 .about .row .img {
+    flex: 1 1 45rem;
     width: 100%;
 }
 
