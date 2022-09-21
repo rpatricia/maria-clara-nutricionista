@@ -1,0 +1,37 @@
+.about .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--verde-claro);
+    flex-wrap: wrap;
+  }
+  
+  .about span {
+    color: var(--withe);
+  }
+  
+  .about .row .img {
+    flex: 1 1 45rem;
+    width: 100%;
+  }
+  
+  .about .row .content {
+    flex: 1 1 45rem;
+    padding: 2rem;
+  }
+  
+  .about .row .content h3 {
+    font-size: 3rem;
+    color: var(--main-color);
+  }
+  
+  .about .row .content p {
+    font-size: 1.6rem;
+    color: var(--verde-medio);
+  
+    padding: 1rem 0;
+    line-height: 1.8;
+  
+    text-align: justify;
+  }
+  

@@ -1,0 +1,34 @@
+.products span {
+    color: var(--withe);
+  }
+  
+  .products .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .products .box-container .box {
+    text-align: center;
+    border: var(--border);
+    padding: 2rem;
+  }
+  
+  .products .box-container .box .image {
+    padding: 2.5rem 0;
+  }
+  
+  .products .box-container .box .image img {
+    height: 25rem;
+  }
+  
+  .products .box-container .box .content h3 {
+    color: #fff;
+    font-size: 2.5rem;
+  }
+  
+  .products .box-container .content .stars {
+    padding: 1.5rem;
+    color: var(--verde-claro);
+    font-size: 1.7rem;
+  }

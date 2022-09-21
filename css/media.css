@@ -1,0 +1,57 @@
+/* media queries */
+@media (max-width: 991x) {
+    html {
+      font-size: 55%;
+    }
+  
+    .header {
+      padding: 1.5rem 2rem;
+    }
+  
+    .section {
+      padding: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #menu-btn {
+      display: inline-block;
+    }
+  
+    .header .navbar {
+      position: absolute;
+      top: 100%;
+      right: -100%;
+      background: var(--withe);
+      width: 30rem;
+      height: calc(100vh - 9.5rem);
+    }
+  
+    .header.navbar a {
+      color: var(--black);
+      margin: 1.5rem;
+      padding: 0.5rem;
+      font-size: 2rem;
+    }
+  
+    .home {
+      background-position: left;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .home .content h3 {
+      font-size: 4.5rem;
+    }
+  
+    .home .content p {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
+  }
+  
