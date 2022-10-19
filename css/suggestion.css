@@ -1,5 +1,5 @@
 .suggestion span {
-    color: var(--withe);
+    color: var(--white);
   }
   
   .suggestion .box-container {
@@ -35,7 +35,7 @@
   .suggestion .box-container .box .content .title {
     font-size: 2.5rem;
     line-height: 1.5rem;
-    color: var(--withe);
+    color: var(--white);
   }
   
   .suggestion .box-container .box .content .title:hover {

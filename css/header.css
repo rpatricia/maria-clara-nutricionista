@@ -39,15 +39,21 @@
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.5s;
-  }
-  .header .navbar a:hover::after {
+  } */
+
+   .header .navbar a:hover::after {
     transform: scaleX(1);
     transform-origin: left;
   }
   
   .header .navbar a:hover {
     color: var(--main-color);
+    border-bottom: .2px solid greenyellow
   }
+
+  /* .header .navbar a:hover {
+    border-bottom: .2px solid greenyellow;
+  } */
   
   .header .icons div {
     color: var(--verde-claro);

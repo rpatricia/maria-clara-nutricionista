@@ -1,5 +1,5 @@
 .menu span {
-    color: var(--withe);
+    color: var(--white);
   }
   .menu .box-container {
     display: grid;
@@ -24,7 +24,7 @@
   }
   
   .menu .box-container .box:hover {
-    background: var(--withe);
+    background: var(--white);
   }
   
   .menu .box-container .box:hover > * {
