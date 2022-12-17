@@ -9,6 +9,9 @@
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);
   --white: #ffffff;
   --black: #13131a;
+  --green1: #68fe03;
+  --green2: #3aed00;
+  --green3: #13cd00;
 }
 
 * {
@@ -31,7 +34,8 @@ html {
 }
 
 html::-webkit-scrollbar {
-  width: 0.8rem;
+  width: 1rem;
+  
 }
 
 html::-webkit-scrollbar-track {
@@ -39,7 +43,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #fff;
+  background: var(--verde-claro);
   border-radius: 5rem;
 }
 

@@ -1,72 +1,72 @@
 .header {
-    background: var(--white);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 7%;
-    border-bottom: var(--border);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-  }
-  
-  .header .logo img {
-    height: 6rem;
-    /* border-radius: 10%; */
-  }
-  
-  .header .navbar a {
-    display: inline-block;
-    font-size: 1.8rem;
-    padding: 1rem;
-    color: var(--verde-claro);
-    position: relative;
-    margin-right: 1rem;
-  }
-  .header .navbar a:nth-child(1) {
-    color: var(--main-color);
-  }
-  .header .navbar a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 5px;
-    width: 100%;
-    height: 2px;
-    background: var(--blue);
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.5s;
-  } */
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+  border-bottom: var(--border);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  border-bottom: 0.01rem solid var(--green1);
+}
 
-   .header .navbar a:hover::after {
-    transform: scaleX(1);
-    transform-origin: left;
-  }
-  
-  .header .navbar a:hover {
-    color: var(--main-color);
-    border-bottom: .2px solid greenyellow
-  }
+.header .logo img {
+  height: 6rem;
+  /* border-radius: 10%; */
+}
 
-  /* .header .navbar a:hover {
-    border-bottom: .2px solid greenyellow;
-  } */
-  
-  .header .icons div {
-    color: var(--verde-claro);
-    cursor: pointer;
-    font-size: 2.5rem;
-    margin-left: 2rem;
-  }
-  
-  .header .icons div:hover {
-    color: var(--main-color);
-  }
-  
-  .menu-btn {
-    display: none;
-  }
-  
+.header .navbar a {
+  display: inline-block;
+  font-size: 1.8rem;
+  padding: 1rem;
+  color: var(--verde-claro);
+  position: relative;
+  margin-right: 1rem;
+}
+.header .navbar a:nth-child(1) {
+  color: var(--main-color);
+}
+
+.header .navbar a:hover {
+  color: var(--green1);
+}
+
+.header .navbar a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  height: 2px;
+  background: var(--green1);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+.header .navbar a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Fim do hover */
+
+/* Início Hamburguer */
+
+.header .icons div {
+  color: var(--verde-claro);
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
+
+.header .icons div:hover {
+  color: var(--green1);
+}
+
+#menu-btn {
+  display: none;
+}
