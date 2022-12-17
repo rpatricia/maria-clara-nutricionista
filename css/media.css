@@ -1,69 +1,76 @@
 /* media queries */
 @media (max-width: 991x) {
-    html {
-      font-size: 55%;
-    }
-  
-    .header {
-      padding: 1.5rem 2rem;
-    }
-  
-    .section {
-      padding: 2rem;
-    }
+  html {
+    font-size: 55%;
   }
-  
-  @media (max-width: 768px) {
-    #menu-btn {
-      display: inline-block;
-    }
-  
-    /* Toggle */
 
-    #menu-btn.fa-times {
-      transform: rotate(180deg);
-    }
-
-    .header .navbar {
-      position: absolute;
-      top:  100%;
-      right: -250%;
-      background: var(--white);
-      width: 30rem;
-      height: calc(100vh - 9.5rem);
-    }
-    
-    .header .navbar.active {
-      right: 0;
-      transition: all ease 0.8s;
-    } 
-
-    .header .navbar a {
-      display: block;
-      margin: 1.5rem;
-      padding: 0.5rem;
-      font-size: 2rem;
-    }
-
-    .home {
-      background-position: left;
-      justify-content: center;
-      text-align: center;
-      
-    }
-  
-    .home .content h3 {
-      font-size: 4.5rem;
-    }
-  
-    .home .content p {
-      font-size: 1.5rem;
-    }
+  .header {
+    padding: 1.5rem 2rem;
   }
-  
-  @media (max-width: 450px) {
-    html {
-      font-size: 50%;
-    }
+
+  .section {
+    padding: 2rem;
   }
-  
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+
+  /* Toggle */
+
+  #menu-btn.fa-times {
+    transform: rotate(180deg);
+  }
+
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    right: -250%;
+    background: var(--white);
+    width: 30rem;
+    height: calc(100vh - 9.5rem);
+  }
+
+  .header .navbar.active {
+    right: 0;
+    transition: all ease 0.8s;
+  }
+
+  .header .navbar a {
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .home {
+    background-position: left;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home .content h3 {
+    font-size: 4.5rem;
+  }
+
+  .home .content p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 40%;
+  }
+  .header .logo img {
+    height: 2rem;
+  }
+}
