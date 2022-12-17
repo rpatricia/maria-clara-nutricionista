@@ -1,53 +1,118 @@
 .post-header {
   width: 100%;
-  height: 475px;
+  height: 400px;
   background: var(--main-color);
-  border: 4px solid red;
 }
 
 .post-page {
 }
 
 .post-container {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  align-items: center;
-  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
   margin-top: 10rem;
-  border: 4px solid red;
 }
 
-.back-home {
-    color: var(--white);
-    border: 4px solid red;
-    font-size: 1.8rem;
-  }
-  
-  .header-title {
-  border: 4px solid red;
-  font-size: 3rem;
-  color: var(--white)
-  
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.header-content__img {
-  border: 4px solid red;
-  height: 50rem;
+/* .back-home {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  position: relative;
+} */
+
+/* .back-home::after {
+  content: "";
+  position: absolute;
+  left: 40%;
+  right: -100%;
+  bottom: 2px;
+  width: 20%;
+  height: 2px;
+  background: var(--white);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+.back-home:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+} */
+
+.header-title-about {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: var(--white);
+}
+.about-btn {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 auto;
+  background: none;
+  border: 2px solid #49f0d7fd;
+  color: #49f0d7fd;
+  border-radius: 0.5rem;
+}
+
+.about-btn:hover {
+  border: 2px solid var(--white);
+}
+
+.header-content-img {
+  width: 100%;
+  height: 350px;
   overflow: hidden;
-  max-width: 1000px;
 }
-  
 
-.header-img1 {
-  border: 4px solid red;
-  width: 100rem;
-  height: 50rem;
+.header-content .about-img {
+  width: 100%;
+  height: 280px;
   object-fit: cover;
   cursor: pointer;
+  border-radius: 4px;
 }
-
-.header-content__img:hover .header-img1 {
+.header-content .about-img:hover {
   transform: scale(1.1);
 }
 
+/* Parágrafo */
+
+.post-paragraph {
+  background: var(--white);
+}
+
+.post-content {
+  margin-top: 18rem;
+}
+
+.post-content .sub-heading {
+  font-size: 3rem;
+  color: #9c9c9c;
+  font-weight: 700;
+  padding: 2rem 0;
+}
+
+.post-content .post-text {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  margin: 1rem 0;
+  text-align: justify;
+  color: #9c9c9c;
+}
+.post-content .last-p {
+  margin: 2rem 0;
+}
