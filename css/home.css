@@ -1,17 +1,22 @@
 .home {
-    min-height: 100vh;
+    /* min-height: 100vh;
     display: flex;
     align-items: center;
     background: url(../assets/banner5.png) no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    padding: 2.5rem 0 0 ;
+  }
+
+  #home .row {
+    background: none;
   }
   
   .home .content {
-    max-width: 60rem;
+    /* max-width: 60rem; */
   }
   
-  .home .content h3 {
+  /* .home .content h3 {
     font-size: 6rem;
     text-transform: uppercase;
     color: #fff;
@@ -23,4 +28,4 @@
     line-height: 1.8;
     padding: 1rem 0;
     color: #eee;
-  }
+  } */
