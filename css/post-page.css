@@ -11,12 +11,14 @@
   max-width: 800px;
   margin: 0 auto;
   margin-top: 10rem;
+  
 }
 
 .header-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  
 }
 
 /* .back-home {

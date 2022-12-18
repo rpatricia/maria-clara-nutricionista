@@ -58,6 +58,15 @@
   .home .content p {
     font-size: 1.5rem;
   }
+  /* .about-btn {
+    width: 40%;
+  } */
+}
+
+@media (max-width: 550px) {
+  /* .about-btn {
+    width: 60%;
+  } */
 }
 
 @media (max-width: 450px) {
@@ -66,6 +75,9 @@
   }
   .footer .credit {
     font-size: 1.2rem;
+  }
+  .about-btn {
+    width: 40%;
   }
 }
 
