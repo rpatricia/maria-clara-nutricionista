@@ -28,7 +28,7 @@
   }
   .menu .box-container .box .btn:hover {
     color: var(--white);
-    border: 2px solid var(--verde-claro) ;
+    /* border: 2px solid var(--verde-claro) ; */
   }
   
   .menu .box-container .box:hover > * {

@@ -5,6 +5,7 @@
   --verde-claro: #8accc4;
   --verde-medio: #1b978f;
   --verde-medio-claro: #38b4a2;
+  --verde-medio-escuro: #128a76;
   --bg: #010103;
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);
   --white: #ffffff;
@@ -74,9 +75,9 @@ section {
   padding: 0.9rem 3rem;
   font-size: 1.7rem;
   color: var(--verde-claro);
-  background: var(--verde-medio);
+  background: var(--verde-medio-escuro);
   cursor: pointer;
-  border: 2px solid var(--verde-claro);
+  /* border: 2px solid var(--verde-claro); */
   border-radius: .5rem;
   
 }
@@ -84,6 +85,6 @@ section {
 .btn:hover {
   /* letter-spacing: .2rem; */
   color:var(--white);
-  border:2px solid var(--white);
+  /* border:2px solid var(--white); */
   
 }
