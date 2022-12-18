@@ -73,7 +73,7 @@ section {
   display: inline-block;
   padding: 0.9rem 3rem;
   font-size: 1.7rem;
-  color: #000;
+  color: var(--verde-claro);
   background: var(--verde-medio);
   cursor: pointer;
   border: 2px solid var(--verde-claro);
@@ -83,5 +83,7 @@ section {
 
 .btn:hover {
   /* letter-spacing: .2rem; */
-  color: #fff;
+  color:var(--white);
+  border:2px solid var(--white);
+  
 }
