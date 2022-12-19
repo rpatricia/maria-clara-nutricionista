@@ -20,6 +20,7 @@
   
   .products .box-container .box .image img {
     height: 25rem;
+    border-radius: 1rem;
   }
   
   .products .box-container .box .content h3 {
