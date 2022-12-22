@@ -39,11 +39,7 @@
         <h1 class="header-title-about">IMC</h1>
         <!-- Post-image -->
         <div class="header-content-img">
-          <img
-            src="assets/imc.jpg"
-            alt="foto de comida"
-            class="about-img"
-          />
+          <img src="assets/imc.jpg" alt="foto de comida" class="about-img" />
         </div>
       </div>
     </section>
@@ -52,31 +48,32 @@
 
     <section class="post-paragraph" id="imc">
       <div class="post-container post-content" id="content">
+        
         <h2 class="sub-heading">Veja qual é o seu IMC</h2>
-
-        <p class="post-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
-          consequuntur quae nostrum voluptatum, provident soluta rem, iste omnis
-          maxime porro dolorum maiores necessitatibus voluptatibus commodi quos.
-          Necessitatibus fugiat tempore sapiente ut odio similique, minus nemo
-          cumque a consequatur, laborum quae?
-        </p>
-
-        <p class="post-text last-p">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
-          consequuntur quae nostrum voluptatum, provident soluta rem, iste omnis
-          maxime porro dolorum maiores necessitatibus voluptatibus commodi quos.
-          Necessitatibus fugiat tempore sapiente ut odio similique, minus nemo
-          cumque a consequatur, laborum quae?
-        </p>
-
-        <p class="post-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
-          consequuntur quae nostrum voluptatum, provident soluta rem, iste omnis
-          maxime porro dolorum maiores necessitatibus voluptatibus commodi quos.
-          Necessitatibus fugiat tempore sapiente ut odio similique, minus nemo
-          cumque a consequatur, laborum quae?
-        </p>
+        <div class="card">
+          <div class="lineInput">
+            <label>Altura:</label>
+            <input
+              autofocus
+              type="number"
+              id="altura"
+              step="0.01"
+              placeholder="metros"
+            />
+          </div>
+          <div class="lineInput">
+            <div class="input">
+              <label>Peso:</label>
+              <input type="number" id="peso" step="0.1" placeholder="kg" />
+            </div>
+          </div>
+          <div class="button">
+            <button id="calcular">Calcular</button>
+          </div>
+          <div class="result-container">
+            <div class="result" id="resultado">Resultado:</div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -104,6 +101,7 @@
     </section>
 
     <script src="js/script.js"></script>
+    <script src="js/imc.js"></script>
     <!-- Footer Section ends -->
   </body>
 </html>

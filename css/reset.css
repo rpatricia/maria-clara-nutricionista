@@ -13,6 +13,16 @@
   --green1: #68fe03;
   --green2: #3aed00;
   --green3: #13cd00;
+  /* Card
+   */
+  --white: #fff;
+  --green: #5ebab8;
+  --bg-facebook: #dadef0;
+  --bacground: #f3f5f7;
+  --grey: #ccc;
+  --green1: #68fe03;
+  --green2: #3aed00;
+  --green3: #13cd00;
 }
 
 * {
@@ -36,7 +46,6 @@ html {
 
 html::-webkit-scrollbar {
   width: 1rem;
-  
 }
 
 html::-webkit-scrollbar-track {
@@ -78,13 +87,11 @@ section {
   background: var(--verde-medio-escuro);
   cursor: pointer;
   /* border: 2px solid var(--verde-claro); */
-  border-radius: .5rem;
-  
+  border-radius: 0.5rem;
 }
 
 .btn:hover {
   /* letter-spacing: .2rem; */
-  color:var(--white);
+  color: var(--white);
   /* border:2px solid var(--white); */
-  
 }
