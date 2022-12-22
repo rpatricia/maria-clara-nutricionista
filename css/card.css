@@ -11,14 +11,17 @@
 .post-paragraph .post-container .sub-heading {
   text-align: center;
 }
+ .post-paragraph .post-container{
+    padding: 0 14%;
+ }
 .card {
   display: flex;
   flex-direction: column;
   background: var(--white);
   border: 1px solid var(--green1);
-  padding: 4rem;
+  padding: 4rem ;
   border-radius: 0.5rem;
-  margin: 0 16rem;
+  /* margin: 0 16rem; */
   margin-bottom: 2rem;
 }
 
