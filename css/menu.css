@@ -14,7 +14,8 @@
   }
   
   .menu .box-container .box img {
-    height: 10rem;
+    height: 15rem;
+    border-radius: 1rem;
   }
   
   .menu .box-container .box h3 {

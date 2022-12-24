@@ -3,7 +3,9 @@
 :root {
   --main-color: #03aa94;
   --verde-claro: #8accc4;
-  --verde-medio: #1b978f;
+  /* --verde-medio: #1b978f; */
+  --verde-medio: #096b64;
+  --verde-medio2: #06423e;
   --verde-medio-claro: #38b4a2;
   --verde-medio-escuro: #128a76;
   --bg: #010103;
@@ -83,8 +85,8 @@ section {
   display: inline-block;
   padding: 0.9rem 3rem;
   font-size: 1.7rem;
-  color: var(--verde-claro);
-  background: var(--verde-medio-escuro);
+  color: #f2f4f6;
+  background: var(--verde-medio2);
   cursor: pointer;
   /* border: 2px solid var(--verde-claro); */
   border-radius: 0.5rem;
@@ -92,6 +94,6 @@ section {
 
 .btn:hover {
   /* letter-spacing: .2rem; */
-  color: var(--white);
   /* border:2px solid var(--white); */
+  background: var(--verde-medio);
 }
