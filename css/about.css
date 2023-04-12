@@ -12,7 +12,7 @@
   
   .about .row .image {
     flex: 1 1 45rem;
-    width: 100%;
+    width: 100%;    
   }
   
   .about .row .content {
@@ -24,6 +24,8 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+    display: block;
+    /* vertical-align: middle; */ 
   }
   
   .about .row .content h3 {
