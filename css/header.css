@@ -22,12 +22,12 @@
   display: inline-block;
   font-size: 1.8rem;
   padding: 1rem;
-  color: var(--verde-claro);
+  color: var(--verde-medio2);
   position: relative;
   margin-right: 1rem;
 }
 .header .navbar a:nth-child(1) {
-  color: var(--main-color);
+  color: var(--green1);
 }
 
 .header .navbar a:hover {
